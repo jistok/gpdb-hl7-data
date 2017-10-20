@@ -8,7 +8,7 @@ now provides a JSON data type with operators for querying JSON data.  Below, we 
 how one might load and operate on one of these HL7 data sets.
 
 Note that, here, we load the data from the Greenplum master node only.  In a higher data volume
-scenario, we would have chosen to distributed the work across all the segments in our GPDB
+scenario, we would have chosen to distribute the work across all the segments in our GPDB
 cluster.  We'd be happy to provide more detail on that, so please ask if you are interested.
 
 ## Preparation
